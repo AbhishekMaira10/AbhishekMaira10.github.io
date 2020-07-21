@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o assets/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhishekMaira10/AbhishekMaira10.github.io.git"
+  },
+  "author": "Abhishek Maira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhishekMaira10/AbhishekMaira10.github.io/issues"
+  },
+  "homepage": "https://github.com/AbhishekMaira10/AbhishekMaira10.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
