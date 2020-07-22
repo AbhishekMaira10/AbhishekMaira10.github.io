@@ -10,7 +10,7 @@ Show some love 💜 and Star ⭐️ the Repository to support the project.
 ## How to run this website
 
 - Download the files and open index.html
-- Or visit https://www.abhishekmaira.com/](https://www.abhishekmaira.com/)
+- Or visit [https://www.abhishekmaira.com/](https://www.abhishekmaira.com/)
 
 ## :label: Versioning
 
