@@ -1,8 +1,33 @@
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
-  margin: 0 150px 0 150px;
+  margin: 0 80px 0 80px;
   overflow: hidden; }
+
+.btn-main, .btn-dark, .btn-light {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.5rem; }
+
+.btn-main {
+  color: #333;
+  background-color: #ffbc00; }
+
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333; }
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4; }
+
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: #ffbc00; }
 
 * {
   margin: 0;
@@ -29,23 +54,44 @@ img {
   width: 100%; }
 
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 110px;
+  height: 110px;
   color: #fff;
   text-transform: uppercase; }
 
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; }
+  #main-nav ul {
+    display: flex; }
+  #main-nav li {
+    padding: 1rem 1.5rem; }
+  #main-nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s; }
+    #main-nav a:hover {
+      border-color: #ccc; }
+    #main-nav a.current {
+      border-color: #ffbc00; }
+
 #header-home {
-  background: url("/assets/images/showcase.jpg") no-repeat center right/cover;
+  background: url("/assets/images/main2.jpg") center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 20%; }
+    padding-top: 25%;
+    color: darkcyan; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
 
 #header-inner {
-  background: url("/assets/images/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("/assets/images/main2.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }

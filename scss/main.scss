@@ -34,24 +34,57 @@ img {
 
 // Logo
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 110px;
+  height: 110px;
   color: #fff;
   text-transform: uppercase;
+}
+
+//Main Nav
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 1rem 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+
+    &:hover {
+      border-color: $medium-color;
+    }
+
+    &.current {
+      border-color: $main-color;
+    }
+  }
 }
 
 // Header
 #header {
   // Header Home
   &-home {
-    background: $bg-image no-repeat center right / cover;
+    background: $bg-image center right / cover;
     height: 100vh;
     color: #fff;
 
     // Header Content
     .header-content {
       text-align: center;
-      padding-top: 20%;
+      padding-top: 25%;
+      color: darkcyan;
 
       h1 {
         font-size: 4rem;
