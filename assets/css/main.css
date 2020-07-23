@@ -36,7 +36,7 @@ input[class^="btn-"]:hover {
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
-  background: #fff; }
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
 
 a {
   text-decoration: none;
@@ -52,6 +52,11 @@ h4 {
 
 img {
   width: 100%; }
+
+.main {
+  opacity: 0;
+  display: none;
+  transition: opacity 0.5s ease-in; }
 
 #logo {
   width: 110px;
