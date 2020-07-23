@@ -55,8 +55,7 @@ img {
 
 .main {
   opacity: 0;
-  display: none;
-  transition: opacity 0.5s ease-in; }
+  display: none; }
 
 #logo {
   width: 110px;
