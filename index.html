@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--  Bootstrap css file  -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
       rel="stylesheet"
     />
-        <!--  font awesome icons  -->
-    <link rel="stylesheet" href="./css/all.min.css">
-
-        <!--  custom css file  -->
-        <link rel="stylesheet" href="./css/style.css">
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
 
     <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
     <!-- Loader css file -->
     <link rel="stylesheet" href="../assets/css/loader.css" />
     <!-- Favicon -->
@@ -36,19 +37,19 @@
 
     <!-- Main Content -->
 
-    <div class="main">
+    <div class="main site-main">
       <header id="header-home">
         <div class="container">
-          <nav id="main-nav">
+          <nav id="navbar" class="navbar top">
             <img src="../assets/images/logo.png" alt="My Portfolio" id="logo" />
             <ul>
-              <li><a href="index.html" class="current">Home</a></li>
-              <li><a href="about.html">About</a></li>
+              <li><a href="#home" class="current">Home</a></li>
+              <li><a href="#about">About</a></li>
               <li><a href="work.html">Work</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
-          <div class="header-content">
+          <div class="header-content" id="home">
             <h1>
               I Am A
               <span
@@ -62,6 +63,54 @@
         </div>
       </header>
 
+      <!--  ========================= About Area ==========================  -->
+
+      <section class="about-area" id="about">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="about-image">
+                <img
+                  src="assets/images/about-us.png"
+                  alt="About us"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 about-title">
+              <h2 class="text-uppercase pt-5">
+                <span>Let me</span>
+                <span>introduce</span>
+                <span>myself</span>
+              </h2>
+              <div class="paragraph py-4 w-75">
+                <p class="para">
+                  Hi, I'm Abhishek Maira, a web and app developer 👨🏻‍💻 from India.
+                  I'm a creative problem solving enthusiast and a product guy,
+                  with a constantly growing love for kick ass products. I'm
+                  proud to say that
+                  <strong>I can succesfully center an element with css</strong>.
+                </p>
+                <p class="para">
+                  Beside's Hacking stuff, I play chess ♘ and Fifa ⚽. I support
+                  Manchester United 👿 and Barcelona 😎.
+                </p>
+              </div>
+              <button
+                type="button"
+                class="btn button primary-button text-uppercase"
+                onclick="window.location.href='https://drive.google.com/file/d/1xBTKO3_TrRuBnr9PCI-yaaF333P3h1NL/view?usp=sharing';"
+              >
+                Download cv
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  ========================= End About Area ==========================  -->
+    </div>
+
     <!--  Typewriter js file  -->
     <script src="/assets/js/typewriter.js"></script>
 
@@ -71,7 +120,7 @@
     <!-- jquery js file -->
     <script src="/assets/js/jquery.3.5.1.js"></script>
 
-        <!--  Bootstrap js file  -->
-        <script src="./js/bootstrap.min.js"></script>
+    <!--  Bootstrap js file  -->
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>

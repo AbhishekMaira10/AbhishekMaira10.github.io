@@ -7,3 +7,68 @@
 
 /* import global styling */
 @import url(./partials/_global.css);
+
+/* Start Navbar area*/
+#logo {
+  width: 110px;
+  height: 110px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.8;
+  width: 90%;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  transition: 1s;
+}
+
+.navbar.top {
+  background: transparent;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: #ffbc00 2px solid;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+/* End Navbar area*/
+
+/* about area */
+
+.site-main .about-area {
+  padding: 2rem 2rem;
+}
+
+.site-main .about-title {
+  padding-left: 6rem;
+}
+
+.site-main .about-area .about-title h2>span {
+  display: block;
+  font: normal bold 30px/ 40px var(--roboto);
+  letter-spacing: 18px;
+}
+
+.site-main .about-area .about-title .paragraph>p {
+  padding: .4rem 0;
+}
+
+/* end about area */
